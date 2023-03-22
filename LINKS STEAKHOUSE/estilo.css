@@ -24,7 +24,7 @@ body {
 }
 
 .logo{
-    padding-top: 5vh;
+    padding: 5vh 0 2vh;
     width: 30%;
 }
 
@@ -38,16 +38,16 @@ ul li a {
     text-align: center;
     justify-content: center;
 
-    height: 6vh;
+    height: 5vh;
 
     background-color:rgb(0,0,0,0.5);
     
-    margin: 5vh 10vh 0;
+    margin: 3vh 5vh 0;
     border-radius: 50px;
 }
 
 ul li a{
-    padding: 1vh 0;
+    padding: 0.5vh 0;
     font-size: 2.5vh;
     font-weight: bold;
 }
@@ -63,9 +63,13 @@ ul li a:hover {
 
 /*--------footer-------*/
 footer{
-    margin: 15vh 0;
+    margin: 12vh 0;
     text-align: center;
     justify-content: end;
+}
+footer h3{
+    font-size: 1.8vh;
+    text-shadow: 2px 4px 3px black;
 }
 
 footer img{
