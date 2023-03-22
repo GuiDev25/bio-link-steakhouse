@@ -1,0 +1,70 @@
+* {
+    font-family: poppins;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: url(assets/bg.png);
+}
+
+/*--------header-------*/
+.container{
+    width: 50vh;
+    text-align: center;
+    margin: 6rem auto;
+}
+.logo{
+    padding-top: 5vh;
+    width: 30%;
+}
+
+/*--------main ret fundo-------*/
+ul li a {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+    font-size: 2rem;
+    font-weight: bold;
+    background-color:rgb(0,0,0,0.5);
+    
+    margin: 5vh 70vh 0;
+    border-radius: 50px;
+}
+
+/*VOLTAR AQUI*/
+main ul li a img{
+    display: flex;
+    width: 5%;
+    height: 5%;
+    padding-left: 5px;
+}
+
+/*---------animacao ret-----------*/
+
+ul li a:hover {
+    transition: background 1s;
+    background-color: black;
+}
+
+/*--------footer-------*/
+footer{
+    margin: 15vh 0;
+    text-align: center;
+    justify-content: end;
+}
+
+footer img{
+    width: 1vh;
+}
+
+.linkinsta{
+    margin: 50px;
+}
