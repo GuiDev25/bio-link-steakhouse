@@ -40,6 +40,7 @@ ul li a {
 
     background-color:rgb(0,0,0);
     
+    /*efeito de vidro*/
     background: rgba( 0, 0, 0, 0.01 );
     box-shadow: 0 8px 32px 0 rgba(94, 12, 12, 0.2);
     backdrop-filter: blur( 13.5px );
